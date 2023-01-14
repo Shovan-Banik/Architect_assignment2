@@ -1,3 +1,187 @@
-body{
-    background-color: aquamarine;
+/*-------------------------------------------- fonts------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/*----------------------------------- variables declaration ----------------------------------------- */
+:root{
+    --gray: #727272;
+    --black: #131313;
+    --orange: #FF900E;
+    --white: #FFFFFF;
 }
+
+/*----------------------------------------- primary styles------------------------------------------*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    height: 9vh;
+    width: 15vw;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+}
+.section_view{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+/*-------------------------------------------------- start from here------------------------------------ */
+
+
+/*---------------------------------------------------------------------
+ header style start
+ -------------------------------------------------------------------- */
+.header_full{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.nav_control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2vw 4vw;
+}
+.web_title h1{
+    font-size: 3vw;
+    color: var(--black);
+}
+.nav_menu{
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+}
+/*------------------------------------------------------------------------
+ banner style start
+ -------------------------------------------------------------------*/
+
+/*--------------------------------- banner brief section styles start -----------------------------------------== */
+.banner_brief{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3vw;
+}
+.banner_brief h1{
+    font-size: 5vw;
+    color: var(--black);
+}
+.banner_brief p{
+    color: var(--gray);
+    margin: 3vw 0;
+}
+/*------------------------------------- banner photo styles start ------------------------------------------------ */
+.banner_view{
+    padding: 3vw 0;
+}
+/* -----------------------header end--------------hurray!----------------------  */
+
+/*-------------------------------------------------------- 
+feature section start 
+---------------------------------------------------------*/
+.feature_container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70%;
+    gap: 5vw;
+    padding: 4vw;
+}
+.feature_images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1vw;
+    border-radius: 10px;
+}
+.feature_description h1{
+    color: var(--black);
+}
+.feature_description p{
+    color: var(--gray);
+    margin: 2vw 0;
+}
+.design1{
+    color: var(--gray);
+    font-weight: normal;
+}
+.design2{
+    color: var(--orange);
+}
+/*----------------------------------------- feature section styles end ----------------------------------------*/
+
+/*---------------------------------------------------
+ love and enjoy section styles start
+ ------------------------------------------------------  */
+ .feature_enjoy{
+    display: flex;
+    gap: 5vw;
+ }
+ .feature_enjoy_description{
+    width: 50%;
+    position: relative;
+ }
+ .feature_enjoy_photo{
+    width: 50%;
+    position:relative;
+ }
+ .enjoy_title{
+    font-size: 4vw;
+    color: var(--black);
+    border-left: 5px solid var(--orange);
+    padding: 1vw;
+ }
+ .enjoy_pera{
+    color: var(--gray);
+ }
+ .service{
+    margin-bottom: 2vw;
+    padding: 2vw;
+    box-shadow: 3px 3px 3px 3px rgb(228, 227, 227);
+ }
+ .service h2{
+    font-size: 2vw;
+    color: var(--black);
+ }
+ .service p{
+    color: var(--gray);
+ }
+ /*---------------------------------------------------
+ love and enjoy section styles end
+ ------------------------------------------------------  */
+
+ /*---------------------------------------------------- button hard style start --------------------------------- */
+ .hard_button{
+    display: flex;
+    margin: 0 auto;
+    height: 15vh;
+    width: 15vw;
+    background-color: var(--orange);
+    color: var(--white);
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2vw;
+    border: none;
+    position: absolute;
+    margin-top: -6vw;
+    /* translate: 320%; */
+    transform: translate(320%);
+    
+ }
+ .btn_bold{
+    font-size: 2em;
+    font-weight:bold;
+ }
+  /*-------------------------------------------- button hard style end  ---------------------------------------*/
