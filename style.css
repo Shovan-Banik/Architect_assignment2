@@ -21,8 +21,6 @@ img{
     width: 100%;
 }
 .btn{
-    /* height: 9vh;
-    width: 15vw; */
     padding: 15px 30px;
     background-color: var(--orange);
     color: var(--white);
@@ -233,7 +231,7 @@ feature section start
     justify-content: center;
     background-color: bisque;
     border-radius: 20px;
-    padding: 5vw;
+    padding: 5vw 0;
 
   }
   .my_section_photo :hover{
@@ -303,20 +301,17 @@ feature section start
             .nav_menu{
               flex-direction: column;
             }
+            /*-------------------------------------- nav done ------------------------------------- */
             .banner_brief h1{
               font-size: 7vw;
             }
             .banner_brief p{
               padding: 1vw;
             }
-            /* .banner_btn ,.feature_btn{
-              width: 40%;
-              height: 10vw;
-              margin-top: 1vw;
-            } */
             .banner_view{
               padding-right: 8vw;
             }
+            /* ------------------------------------banner done --------------------------------------- */
             .feature_container{
               flex-direction: column-reverse;
             }
@@ -339,17 +334,20 @@ feature section start
             .feature_enjoy_description h1{
               font-size: 7vw;
             }
+            /*---------------------------------------------- feature done  ---------------------------------------*/
             .service h2{
               font-size: 5vw;
             }
             .feature_enjoy_photo{
               width: 80%;
             }
+            /*------------------------------------------------ service done -------------------------------------------*/
             .hard_button{
               padding: 25px 40px;
               margin-top: 1vw;
               translate: 320%;
             }
+            /*------------------------------------------------ hard button done ------------------------------------------- */
             .hide{
               display: none;
             }
@@ -373,6 +371,7 @@ feature section start
               height: 7vw;
               width: 7vw;
             }
+            /*-------------------------------------------- fact done ---------------------------------------------- */
             .my_section{
               flex-direction: column;
             }
@@ -380,6 +379,7 @@ feature section start
               padding-left: 20vw;
               
             }
+            /*------------------------------------------- may section done  ----------------------------------------------*/
             .sponsor_description h1{
               font-size: 7vw;
             }
@@ -389,11 +389,13 @@ feature section start
               height:fit-content;
               width: 50%;
               padding-left: 25%;
-            }
-
-      
+            } 
     }
 
-
+    /* -------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------
+    --------------------------------------- Successfully done -------------------------------------------
+    ------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------- */
 
   
