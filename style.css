@@ -107,6 +107,7 @@ feature section start
 }
 .feature_description h1{
     color: var(--black);
+    font-size: 4vw;
 }
 .feature_description p{
     color: var(--gray);
@@ -185,3 +186,96 @@ feature section start
     font-weight:bold;
  }
   /*-------------------------------------------- button hard style end  ---------------------------------------*/
+  
+  /*-------------------------------------------- fact section styles start ----------------------------------------- */
+  .fact_container{
+    padding: 8vw;
+  }
+  .fact_title h1{
+    font-size: 4vw;
+  }
+  .fact_title p{
+    color: var(--gray);
+  }
+  .fact_elements{
+    display: flex;
+    padding: vw;
+    gap: 4vw;
+    margin-top: 5vw;
+  }
+  .fact_element{
+    padding: 3vw;
+    border: 1px solid var(--orange);
+    text-align: center;
+    width: 20%;
+    transition: height 2s,width 2s,transform 2s;
+  }
+  .fact_element img{
+    height: 3vw;
+    width: 3vw;
+  }
+  .fact_element h2{
+    color: var(--gray);
+  }
+  .fact_element p{
+    color: var(--gray);
+  }
+  .fact_elements :hover{
+    background-color: rgb(162, 197, 236);
+    transform: rotate(360deg);
+    border: 5px solid palevioletred;
+  }
+  /*-------------------------fact section styles start ---------------not bad at all----------------------*/
+
+  /* -------------------------------- my section style start  ------------------------------------- */
+  .my_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 20px;
+
+  }
+  .my_section_pera{
+    
+    padding: 5vw;
+  }
+
+  /* -------------------------------- my section style end  ------------------------------------- */
+
+  /*------------------------------------- sponsor section style start ------------------------------------- */
+  .sponsor_container{
+    -webkit-filter: grayscale(100%);
+     filter: grayscale(100%);
+  } 
+  .sponsor_description{
+    text-align: center;
+    padding: 4vw;
+  }
+  .sponsor_description h1{
+    font-size: 4vw;
+  }
+  .sponsor_description p{
+    color: var(--gray);
+  }
+  .sponsor_img{
+    display: flex;
+    gap: 5vw;
+    height: 3vw;
+  }
+    /*------------------------------------- sponsor section style end ------------------------------------- */
+
+    /*--------------------------------------------- main style end  -----------------------------------------*/
+
+    /* --------------------------------------------footer start ----------------------------------------- */
+    .foot{
+        margin-top: 5vw;
+        padding: 1vw;
+        background-color: #FFF4E7;
+        text-align: center;
+        color: var(--gray);
+    }
+
+
+
+  
