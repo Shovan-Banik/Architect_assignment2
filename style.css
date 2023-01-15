@@ -251,10 +251,6 @@ feature section start
   .my_section_pera p{
     color: var(--gray);
   }
-  .my_section_btn{
-    margin: 2vw 0;
-  }
-
   /* -------------------------------- my section style end  ------------------------------------- */
 
   /*------------------------------------- sponsor section style start ------------------------------------- */
@@ -377,6 +373,9 @@ feature section start
             .my_section_photo{
               padding-left: 20vw;
               
+            }
+            .my_section_btn{
+              margin: 2vw 0;
             }
             /*------------------------------------------- may section done  ----------------------------------------------*/
             .sponsor_description h1{
