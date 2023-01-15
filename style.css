@@ -308,9 +308,6 @@ feature section start
             .banner_brief p{
               padding: 1vw;
             }
-            .banner_view{
-              padding-right: 8vw;
-            }
             /* ------------------------------------banner done --------------------------------------- */
             .feature_container{
               flex-direction: column-reverse;
