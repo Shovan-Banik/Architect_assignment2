@@ -231,7 +231,6 @@ feature section start
     justify-content: center;
     background-color: bisque;
     border-radius: 20px;
-    padding: 5vw 0;
 
   }
   .my_section_photo :hover{
@@ -251,6 +250,9 @@ feature section start
   }
   .my_section_pera p{
     color: var(--gray);
+  }
+  .my_section_btn{
+    margin: 2vw 0;
   }
 
   /* -------------------------------- my section style end  ------------------------------------- */
