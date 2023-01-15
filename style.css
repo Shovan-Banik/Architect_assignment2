@@ -21,8 +21,9 @@ img{
     width: 100%;
 }
 .btn{
-    height: 9vh;
-    width: 15vw;
+    /* height: 9vh;
+    width: 15vw; */
+    padding: 15px 30px;
     background-color: var(--orange);
     color: var(--white);
     border: none;
@@ -164,7 +165,7 @@ feature section start
 
  /*---------------------------------------------------- button hard style start --------------------------------- */
  .hard_button{
-    display: flex;
+     display: flex;
     margin: 0 auto;
     height: 15vh;
     width: 15vw;
@@ -177,8 +178,7 @@ feature section start
     border: none;
     position: absolute;
     margin-top: -6vw;
-    /* translate: 320%; */
-    transform: translate(320%);
+    translate: 320%;
     
  }
  .btn_bold{
@@ -199,7 +199,6 @@ feature section start
   }
   .fact_elements{
     display: flex;
-    padding: vw;
     gap: 4vw;
     margin-top: 5vw;
   }
@@ -208,7 +207,7 @@ feature section start
     border: 1px solid var(--orange);
     text-align: center;
     width: 20%;
-    transition: height 2s,width 2s,transform 2s;
+    transition: transform 2s;
   }
   .fact_element img{
     height: 3vw;
@@ -234,11 +233,26 @@ feature section start
     justify-content: center;
     background-color: bisque;
     border-radius: 20px;
+    padding: 5vw;
 
   }
+  .my_section_photo :hover{
+    transform: rotate(360deg);
+  }
+  .my_section :hover{
+    transition: transform 2s;
+  }
+  .my_section_photo{
+    display: flex;
+    flex-direction: end;
+    width: 60%;
+  }
   .my_section_pera{
-    
-    padding: 5vw;
+    width: 40%;
+    padding: 2vw;
+  }
+  .my_section_pera p{
+    color: var(--gray);
   }
 
   /* -------------------------------- my section style end  ------------------------------------- */
@@ -274,6 +288,110 @@ feature section start
         background-color: #FFF4E7;
         text-align: center;
         color: var(--gray);
+    }
+    /*------------------------------------------------ footer end  ------------------------------------------------*/
+
+    /*---------------------------------------------- responsive area start  ---------------------------------------------*/
+    @media only screen and (max-width: 576px ) {
+           .nav_control{
+              flex-direction: column;
+              margin: 0 auto;
+            }
+            .web_title h1{
+              font-size: 7vw;
+            }
+            .nav_menu{
+              flex-direction: column;
+            }
+            .banner_brief h1{
+              font-size: 7vw;
+            }
+            .banner_brief p{
+              padding: 1vw;
+            }
+            /* .banner_btn ,.feature_btn{
+              width: 40%;
+              height: 10vw;
+              margin-top: 1vw;
+            } */
+            .banner_view{
+              padding-right: 8vw;
+            }
+            .feature_container{
+              flex-direction: column-reverse;
+            }
+            .feature_description{
+              text-align: center;
+            }
+            .feature_description h1{
+              font-size: 7vw;
+            }
+            .feature_images{
+              display: grid;
+              grid-template-columns: repeat(1,1fr);
+              grid-gap:2vw;
+            }
+            .feature_enjoy{
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+            .feature_enjoy_description h1{
+              font-size: 7vw;
+            }
+            .service h2{
+              font-size: 5vw;
+            }
+            .feature_enjoy_photo{
+              width: 80%;
+            }
+            .hard_button{
+              padding: 25px 40px;
+              margin-top: 1vw;
+              translate: 320%;
+            }
+            .hide{
+              display: none;
+            }
+            .fact_title{
+              text-align: center;
+            }
+            .fact_title h1{
+              font-size: 7vw;
+            }
+            .fact_title p{
+              padding: 2vw; 
+            }
+            .fact_elements{
+              flex-direction: column;
+              align-items: center;
+            }
+            .fact_element{
+              width: 100%;
+            }
+            .fact_element img{
+              height: 7vw;
+              width: 7vw;
+            }
+            .my_section{
+              flex-direction: column;
+            }
+            .my_section_photo{
+              padding-left: 20vw;
+              
+            }
+            .sponsor_description h1{
+              font-size: 7vw;
+            }
+            .sponsor_img{
+              display: grid;
+              grid-template-columns: repeat(1,1fr);
+              height:fit-content;
+              width: 50%;
+              padding-left: 25%;
+            }
+
+      
     }
 
 
