@@ -326,6 +326,9 @@ feature section start
               justify-content: center;
               align-items: center;
             }
+            .feature_enjoy_description{
+              width: 100%;
+            }
             .feature_enjoy_description h1{
               font-size: 7vw;
             }
